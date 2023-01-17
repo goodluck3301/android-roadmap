@@ -3,7 +3,7 @@ Android, Java and Kotlin RoadMap
 
 ## [Java](https://github.com/goodluck3301/android-interview/tree/main/Java)
 - [x] Java8 vs Kotlin (ex. Data Structure, Why Kotlin?)
-- [x] Java Multithreading
+- [x] [Java Multithreading](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading)
 - [x] Thread Communication
 - [x] Memory Managmend (Stack/Heap)
 - [x] Garbage Collection
