@@ -3,6 +3,7 @@
   - [How to create a thread in Java?](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#how-to-create-a-thread-in-java) 
   - [Which way of creating threads is](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#which-way-of-creating-threads-is)
   - [Why wait, notify and notifyAll methods](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#why-wait-notify-and-notifyall-methods)
+ 
   
 ### What is Multi-threading?
 
@@ -136,6 +137,82 @@ threads will get to use the shared resource sooner or later.
 In this example, the lock can be acquired on the key object or the
 service desk and none of them is a thread. These are the objects
 that decide whether the washroom is locked or not.
+
+### What is Locks?
+
+For more granular control, we can utilize a lock. A lock (or monitor) is used to synchronize access to a
+shared resource by associating the resource with the lock. A thread gets access to a shared resource by first
+acquiring the lock associated with the resource. At any given time, at most one thread can hold the lock
+and, therefore, only one thread can access the shared resource.</br>
+
+A common use case for locks is when a resource is accessed from multiple places, but should be only
+accessed by one thread oft) fime.This case is demonstrated in the code below. 
+
+```java
+public class LockedATM {
+
+     private Lock lock;
+     private int balance = 100;
+
+     public LockedATM() {
+         lock = new Reentrantlock();
+     }
+
+      public int withdraw(int value) {
+          lock.lockQ;
+          int temp = balance;
+          try {
+                Thread.sleep(100);
+                temp = temp - value;
+                Thread.sleep(100);
+                balance = temp;
+          } catch (interruptedException e) { }
+          lock.unlockC);
+          return temp;
+     }
+
+     public int deposit(int value) {
+        lock.lockQ;
+        int temp = balance;
+        try {
+            Thread.sleep(100); 
+            temp = temp + value;
+            Thread.sleep(300);
+            balance = temp;
+        } catch (InterruptedException e) { }
+        lock.unlockQ;
+        return temp;
+    }
+}
+```
+
+Of course, we've added code to intentionally slow down the execution of withdra w and deposit , as it
+helps to illustrate the potential problems that can occur. You may not write code exactly like this, but the
+situation it mirrors is very, very real. Using a lock will help protect a shared resource from being modified in
+unexpected ways. 
+
+### Deadlocks and Deadlock Prevention 
+
+A deadlock is a situation where a thread is waiting for an object lock that another thread holds, and this
+second thread is waiting for an object lock that the first thread holds (or an equivalent situation with several
+threads). Since each thread is waiting for the other thread to relinquish a lock, they both remain waiting
+forever. The threads are said to be deadlocked.
+In order for a deadlock to occur, you must have all four of the following conditions met:
+
+1. Mutual Exclusion: Only one process can access a resource at a given time. (Or, more accurately, there is
+limited access to a resource, A deadlock could also occur if a resource has limited quantity.)
+
+2. Hold and Wait: Processes already holding a resource can request additional resources, without relinquishing their current resources.
+
+3. No Preemption:One process cannot forcibly remove another process'resource.
+
+4. Circular lVa/f;Two or more processes form a circular chain where each process is waiting on another
+resource in the chain.
+
+Deadlock prevention entails removing any of the above conditions, but it gets tricky because many of these
+conditions are difficult to satisfy. For instance, removing #1 is difficult because many resources can only
+be used by one process at a time (e.g., printers).
+
 
 
 [Ինչ է Thread-ը, multithreading - (Video AM)](https://www.youtube.com/watch?v=EYAHKHvm6uI)
