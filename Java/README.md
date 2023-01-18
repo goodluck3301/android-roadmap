@@ -1,4 +1,8 @@
 - ## Thread
+  - [What is Multi-threading?](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#what-is-multi-threading)
+  - [How to create a thread in Java?](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#how-to-create-a-thread-in-java) 
+  - [Which way of creating threads is](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#which-way-of-creating-threads-is)
+  - [Why wait, notify and notifyAll methods](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#why-wait-notify-and-notifyall-methods)
   
 ### What is Multi-threading?
 
@@ -45,8 +49,7 @@ If you see the outputs of this and previous program, you will see that
 they are different, because any thread can get a chance to execute
 its run() method, when the CPU resources are available.
 
-### Which way of creating threads is
-better: Thread class or Runnable interface
+### Which way of creating threads is better: Thread class or Runnable interface ?
 
 Answer: Implementing Runnable is always the preferred choice, see
 the reasons below:
@@ -66,16 +69,14 @@ separates the task from its execution and we can
 execute Runnables using execute(Runnable Task)
 method of Executor interface.</br>
 
-### What will happen if I directly call the
-run() method and not the start() method to execute
-a thread
+### What will happen if I directly call the run() method and not the start() method to execute a thread ?
 
 Answer: No. A thread can be started only once in its lifetime. If you
 try to start a thread which has already been started, an
 IllegalThreadStateException is thrown, which is a runtime exception.
 A thread in runnable state or a dead thread cannot be restarted.
 
-### Why wait, notify and notifyAll methods
+### Why wait, notify and notifyAll methods?
 are defined in the Object class instead of Thread
 class
 
