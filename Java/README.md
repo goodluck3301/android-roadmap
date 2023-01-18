@@ -1,4 +1,6 @@
 - ## Thread
+  - [Deadlocks and Deadlock Prevention](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#deadlocks-and-deadlock-prevention) 
+  - [What is Locks?](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#what-is-locks)
   - [What is Multi-threading?](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#what-is-multi-threading)
   - [How to create a thread in Java?](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#how-to-create-a-thread-in-java) 
   - [Which way of creating threads is](https://github.com/goodluck3301/android-interview/blob/main/Java/README.md#which-way-of-creating-threads-is)
