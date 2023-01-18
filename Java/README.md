@@ -1,4 +1,4 @@
-- ## Thread
+- ## [Thread](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading#thread)
   - [What is Multi-threading?](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading#what-is-multi-threading)
   - [How to create a thread in Java?](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading#how-to-create-a-thread-in-java)
   - [What will happen if I directly call the run() method and not the start() method to execute a thread ?](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading#what-will-happen-if-i-directly-call-the-run-method-and-not-the-start-method-to-execute-a-thread-)
