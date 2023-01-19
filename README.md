@@ -37,15 +37,16 @@ Android, Java and Kotlin RoadMap
                    // statement in lambda expression
                    // so, does not give compile time error
  
-    { println("Lambda expression 2")} )
+      { println("Lambda expression 2")} )
  
-    println("Main function ends")
-}
+      println("Main function ends")
+    }
+    
     // inlined function
-inline fun inlinedFunc( lmbd1: () -> Unit, lmbd2: () -> Unit  ) { 
-    lmbd1()
-    lmbd2()
-}
+    inline fun inlinedFunc( lmbd1: () -> Unit, lmbd2: () -> Unit  ) { 
+      lmbd1()
+      lmbd2()
+    }
     ```
 - [x] Suspend Function
 - [x] Higher-Order Functions and Lambdas in Kotlin
