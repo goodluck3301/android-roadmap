@@ -14,7 +14,8 @@ Android, Java and Kotlin RoadMap
   - [Kotlin Data Class Tutorial with Example](https://www.youtube.com/watch?v=L0VulZZPGbI)
 - [x] Data Class vs Class
   - [Kotlin DATA CLASS. Object Oriented Programming in Kotlin for Android #8.10 (Video - EN)](https://www.youtube.com/watch?v=Z6xj7hta7Ac)
-- [x] Sealed Class
+- [x] Sealed Classes, Enum Classes, Sealed Interfaces
+  - [Sealed Classes VS. Enum Classes VS. Sealed Interfaces - When to Use Which?](https://www.youtube.com/watch?v=kLJRZpRhX1o)
 - [x] Inline Function
 - [x] Suspend Function
 - [x] Higher-Order Functions and Lambdas in Kotlin
