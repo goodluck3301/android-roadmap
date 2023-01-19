@@ -11,6 +11,7 @@ Android, Java and Kotlin RoadMap
 
 ## [Kotlin](https://github.com/goodluck3301/android-interview/tree/main/Kotin)
 - [x] Data Class vs Class
+  - [Kotlin DATA CLASS. Object Oriented Programming in Kotlin for Android #8.10 (Video - EN)](https://www.youtube.com/watch?v=Z6xj7hta7Ac)
 - [x] Sealed Class
 - [x] Inline Function
 - [x] Suspend Function
