@@ -49,6 +49,7 @@ Android, Java and Kotlin RoadMap
     }
     ```
 - [x] Suspend Function
+  - [Suspend Functions - Kotlin Coroutines (Video - En)](https://www.youtube.com/watch?v=yc_WfBp-PdE) 
 - [x] Higher-Order Functions and Lambdas in Kotlin
 - [x] Infix notation in Kotlin
 - [x] Mastering Flow API in Kotlin
