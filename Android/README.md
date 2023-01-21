@@ -16,4 +16,5 @@ All these components are defined in the AndroidManifest.xml file. They can be tr
 
 
 - ### Materials
+  - [MVVM (Videos [RU])](https://www.youtube.com/watch?v=qEKsLJ8FYes&list=PLY8G5DMG6TiMlF-iZmLSnrThvZQHuSpt2)
   - [Шаблон MVVM по-простому.Lifecycle.](https://www.youtube.com/watch?v=JKoAeOaeV6k)
