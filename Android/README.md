@@ -12,3 +12,8 @@ Broadcast Receivers: A broadcast receiver is a component that listens for and re
 Content Providers: A content provider is a component that allows different apps to share data with one another. It acts as a bridge between an app's data and the rest of the system.
 
 All these components are defined in the AndroidManifest.xml file. They can be triggered by Intents, which are objects that describe the action to be performed. A developer can use these components in any combination to create a functional application.
+
+
+
+- ### Materials
+  - [Шаблон MVVM по-простому.Lifecycle.](https://www.youtube.com/watch?v=JKoAeOaeV6k)
