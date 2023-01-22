@@ -214,6 +214,32 @@ Deadlock prevention entails removing any of the above conditions, but it gets tr
 conditions are difficult to satisfy. For instance, removing #1 is difficult because many resources can only
 be used by one process at a time (e.g., printers).
 
+```java
+class Main
+{
+    public static void main(String[] args) throws InterruptedException {
 
+       final int[] sum = {0};
+
+        Thread task1 = new Thread(() -> {
+            for(int i = 0; i<=5; i++)
+                sum[0] += 1;
+        });
+
+        Thread task2 = new Thread(() -> {
+            for(int i = 5; i<=10; i++)
+                sum[0] += 1;
+        });
+
+        task1.start();
+        task2.start();
+
+        task1.join(); // wait until task1 Thread finish
+        task2.join();
+        
+        System.out.println("sum = "+sum[0]);
+    }
+}
+```
 
 [Ինչ է Thread-ը, multithreading - (Video AM)](https://www.youtube.com/watch?v=EYAHKHvm6uI)
