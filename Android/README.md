@@ -13,7 +13,68 @@ Content Providers: A content provider is a component that allows different apps 
 
 All these components are defined in the AndroidManifest.xml file. They can be triggered by Intents, which are objects that describe the action to be performed. A developer can use these components in any combination to create a functional application.
 
+- ## [Kotlin Coroutine (Scope Difference: CoroutineScope, GlobalScope, etc.)](https://medium.com/@pramahalqavi/several-types-of-kotlin-coroutine-scope-difference-coroutinescope-globalscope-etc-9f086cd40173)
 
+Coroutine is one of tools in Android development to achieve asynchronous code execution. As we know asynchronous or non-blocking programming is pretty important part for the development. In order to run a coroutine we need to run it in a scope called ```CoroutineScope```. This ```CoroutineScope``` help us to track running coroutine, cancel the unused coroutine to avoid memory leak. There are several scope other than ```CoroutineScope``` that we want to talk about.</br>
+
+### CoroutineScope</br>
+
+Suppose we want to run an asynchronous long running task. If the task goes well then it will finish and terminated as expected. But if the task somehow doesn’t go well, keep running for a long time and it’s still running when the user doesn’t intend to use it anymore then we need to stop it at some point because we don’t want the task to waste user’s cpu and memory resource. In coroutine we can avoid this problem by keep track the task and limit its lifetime using CoroutineScope. By tracking running coroutine using CoroutineScope we can cancel the task when we don’t need it to be running anymore.
+
+```kt
+class ExampleActivity: AppCompatActivity() {
+  //...
+  private lateinit var mCoroutineScope: CoroutineScope
+  //...
+  private fun coroutineTest() {
+      mCoroutineScope = CoroutineScope(Dispatchers.Main)
+      mCoroutineScope.launch {
+        println("loading..")
+        delay(3000)
+        println("job is done")
+      }
+  }
+  override fun onDestroy() {
+    super.onDestroy()
+    if(::mCoroutineScope.isInitialized && mCoroutineScope.isActive){                    
+      mCoroutineScope.cancel() 
+    }
+}
+```
+
+We define a variable called ```mCoroutineScope``` inside class and we define it with whatever ```CoroutineContext``` we want when we want to launch a coroutine in the scope, in this case we use ```Dispatchers.Main```. Then when we want to cancel the coroutine inside the scope we can simply call ```mCoroutine.cancel()```. On the code snippet above, we will cancel running coroutine inside ```mCoroutineScope``` when activity is destroyed.
+
+What if we want to cancel only some coroutines and retain some other coroutines inside the scope? We can define Job using launch and cancel it whenever we want. Job is actually coroutine itself. Coroutine is represented by a Job. Every time you call launch you will return a Job instance.</br>
+
+What if we want to cancel only some coroutines and retain some other coroutines inside the scope? We can define ```Job``` using ```launch``` and cancel it whenever we want. ```Job``` is actually coroutine itself. Coroutine is represented by a ```Job```. Every time you call ```launch``` you will return a ```Job``` instance.
+
+```kt
+//...
+private lateinit var mJob1: Job
+private lateinit var mJob2: Job
+//...
+private fun coroutineTest() {
+  mCoroutineScope = CoroutineScope(Dispatchers.Main)
+  mJob1 = mCoroutineScope.launch {
+    println("loading..")
+    delay(3000)
+    println("job 1 is done")
+  }
+  mJob2 = mCoroutineScope.launch {
+    println("loading..")
+    delay(3000)
+    println("job 2 is done")
+  }
+}
+private fun cancelJob1() {
+  if (::mJob1.isInitialized && mJob1.isActive) {
+    println("job 1 is canceled")
+    mJob1.cancel()
+  }
+}
+```
+
+Suppose we call ```coroutineTest()``` method as defined above. Inside the method we launch job 1 and job 2 within ```mCoroutineScope```. In this case if we want to cancel all the job inside ```mCoroutineScope``` we can call ```mCoroutineScope.cancel()``` but if we want to cancel only job 1 we can simply call ```mJob.cancel()```.
 
 - ### Materials
   - [MVVM (Videos [RU])](https://www.youtube.com/watch?v=qEKsLJ8FYes&list=PLY8G5DMG6TiMlF-iZmLSnrThvZQHuSpt2)
