@@ -70,6 +70,7 @@ Android, Java and Kotlin RoadMap
 - [x] Android Tools And Technologies
 - [x] Java and Kotlin
 - [x] Kotlin Coroutines
+- [x] [Multiprocess on Android](https://medium.com/@rotxed/going-multiprocess-on-android-52975ed8863c)
 - [x] Kotlin Flow API
 - [x] Jetpack Compose
 - [x] Other Topics
