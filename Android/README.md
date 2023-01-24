@@ -76,6 +76,20 @@ private fun cancelJob1() {
 
 Suppose we call ```coroutineTest()``` method as defined above. Inside the method we launch job 1 and job 2 within ```mCoroutineScope```. In this case if we want to cancel all the job inside ```mCoroutineScope``` we can call ```mCoroutineScope.cancel()``` but if we want to cancel only job 1 we can simply call ```mJob.cancel()```.
 
+### GlobalScope</br>
+
+```GlobalScope``` is a top level ```CoroutineScope``` that is operating as long as the application is alive. We usually use this when we want to launch a running task on application scope so that the task will remains alive until the app killed. Since it’s alive along with application lifetime, ```GlobalScope``` is a singleton object. It’s actually same as ```CoroutineScope``` but the syntax doesn’t have ```CoroutineContext``` on its parameter. By default it will have default ```CoroutineContext``` which is ```Dispatchers.Default``` except we define ```CoroutineContext``` on the ```launch``` parameter.
+
+```kt
+GlobalScope.launch(Dispatchers.Main) {
+  println("loading..")
+  delay(3000)
+  println("job is done")
+}
+```
+We can see the usage example on above snippet code. As we can see unlike ```CoroutineScope```, ```GlobalScope``` doesn’t have ```CoroutineContext``` constructor. If we want to cancel running task on the ```GlobalScope```, we can simply use methods same as ```CoroutineScope``` by using cancel method or ```cancel``` the job individually.
+
+
 - ### Materials
   - [MVVM (Videos [RU])](https://www.youtube.com/watch?v=qEKsLJ8FYes&list=PLY8G5DMG6TiMlF-iZmLSnrThvZQHuSpt2)
   - [Шаблон MVVM по-простому.Lifecycle.](https://www.youtube.com/watch?v=JKoAeOaeV6k)
