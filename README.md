@@ -62,6 +62,7 @@ Android, Java and Kotlin RoadMap
 
 ## Android
 
+- [x] [Android Components](https://github.com/goodluck3301/android-interview/tree/main/Android#android-components)
 - [x] Core Android
 - [x] Android Libraries
 - [x] Android Architecture
