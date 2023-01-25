@@ -130,6 +130,89 @@ necessary
 - Equivalent classes help us to determine the
 amount of tests a function should have
 
+```kt
+object RegistrationUtil {
+
+  private val existingUsers = listOf("Peter","Carl")
+
+    /*. the input is not valid if...
+    ....the username/password is empty
+    ...the username is already taken.
+    ...the confirmed password is not the same as the
+    ...the password contains less than 2 digits
+    */
+    fun validateRegistrationInput(
+        username:String,
+        password:String,
+        confirmedPassword: String
+    ):Boolean{
+        if (username.isEmpty() || password.isEmpty())
+            return false
+        if (username in existingUsers)
+            return false
+        if (password != confirmedPassword)
+            return false
+        if (password.count{it.isDigit()} < 2)
+            return false
+        return true
+    }
+}
+```
+
+```kt
+class RegistrationUtilTest {
+    @Test
+    fun `empty username return false`() {
+        val result = RegistrationUtil.validateRegistrationInput(
+                    "",
+                    "123",
+                    "123"
+                )
+        assertThat(result).isFalse()
+    }
+
+    @Test
+    fun `valid username and correcttly repeated paswword returns true`() {
+        val result = RegistrationUtil.validateRegistrationInput(
+            "Phillipp",
+            "123",
+            "123"
+        )
+        assertThat(result).isTrue()
+    }
+
+    @Test
+    fun `username already exists returns false`() {
+        val result = RegistrationUtil.validateRegistrationInput(
+            "Carl",
+            "123",
+            "123"
+        )
+        assertThat(result).isFalse()
+    }
+
+    @Test
+    fun `empty password`() {
+        val result = RegistrationUtil.validateRegistrationInput(
+            "Carl",
+            "",
+            ""
+        )
+        assertThat(result).isFalse()
+    }
+
+    @Test
+    fun `password contains less than 2 digits`() {
+        val result = RegistrationUtil.validateRegistrationInput(
+            "Carl",
+            "password",
+            "password"
+        )
+        assertThat(result).isFalse()
+    }
+}
+```
+
 [Write Your First Unit Test in Android Using JUnit4 and Truth Assertion Library](https://medium.com/swlh/write-your-first-unit-test-in-android-using-junit4-and-truth-assertion-library-c1fa8d6b9402)
 
 
