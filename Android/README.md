@@ -89,6 +89,15 @@ GlobalScope.launch(Dispatchers.Main) {
 ```
 We can see the usage example on above snippet code. As we can see unlike ```CoroutineScope```, ```GlobalScope``` doesn’t have ```CoroutineContext``` constructor. If we want to cancel running task on the ```GlobalScope```, we can simply use methods same as ```CoroutineScope``` by using cancel method or ```cancel``` the job individually.
 
+- ## [Testing Android](https://youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq)
+
+  - Test cases test if our code is working
+  
+  - Without tests, you need to manually test the same functionality of
+your app over and over again to verify it is working
+  
+  - With JUnit, we can test our code with a single click whenever
+we want
 
 - ### Materials
   - [MVVM (Videos [RU])](https://www.youtube.com/watch?v=qEKsLJ8FYes&list=PLY8G5DMG6TiMlF-iZmLSnrThvZQHuSpt2)
