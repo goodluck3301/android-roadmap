@@ -103,6 +103,32 @@ we want
 
 ![image](https://user-images.githubusercontent.com/100533325/214620127-413c330b-cab9-40ff-bcd3-e279ed916c4c.png)
 
+### Test Driven Development
+
+- Main principle: Write the test case before the implementation of the function (only for unit tests)
+  - Write the function signature
+  - Write the test cases for that function
+  - Write the function logic so the tests pass
+- You should only have one assertion per test case
+- We immediately want to know the cause of a failed test case
+- Sometimes there is no way around multiple assertions
+
+### What makes a good test?
+- Scope
+- Speed
+- Fidelity
+
+- Not a flaky test (sometimes succeeds and sometimes
+fails)
+- Never make the outcome of a test
+dependent on the outcome of another test
+
+### How many test cases should you write?
+
+- As little tests as necessary, but also as many as
+necessary
+- Equivalent classes help us to determine the
+amount of tests a function should have
 
 
 - ### Materials
