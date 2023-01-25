@@ -101,6 +101,10 @@ your app over and over again to verify it is working
   - With JUnit, we can test our code with a single click whenever
 we want
 
+![image](https://user-images.githubusercontent.com/100533325/214620127-413c330b-cab9-40ff-bcd3-e279ed916c4c.png)
+
+
+
 - ### Materials
   - [MVVM (Videos [RU])](https://www.youtube.com/watch?v=qEKsLJ8FYes&list=PLY8G5DMG6TiMlF-iZmLSnrThvZQHuSpt2)
   - [Шаблон MVVM по-простому.Lifecycle.](https://www.youtube.com/watch?v=JKoAeOaeV6k)
