@@ -91,6 +91,8 @@ We can see the usage example on above snippet code. As we can see unlike ```Coro
 
 - ## [Testing Android](https://youtube.com/playlist?list=PLQkwcJG4YTCSYJ13G4kVIJ10X5zisB2Lq)
 
+What are tests and why do we write them?
+
   - Test cases test if our code is working
   
   - Without tests, you need to manually test the same functionality of
