@@ -130,6 +130,9 @@ necessary
 - Equivalent classes help us to determine the
 amount of tests a function should have
 
+[Write Your First Unit Test in Android Using JUnit4 and Truth Assertion Library](https://medium.com/swlh/write-your-first-unit-test-in-android-using-junit4-and-truth-assertion-library-c1fa8d6b9402)
+
+
 
 - ### Materials
   - [MVVM (Videos [RU])](https://www.youtube.com/watch?v=qEKsLJ8FYes&list=PLY8G5DMG6TiMlF-iZmLSnrThvZQHuSpt2)
