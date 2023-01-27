@@ -76,6 +76,7 @@ Android, Java and Kotlin RoadMap
 - [x] Jetpack Compose
 - [x] Other Topics
 - [x] Data Structures and Algorithms
+- [x] MVVM
 
 
 ### Sites
