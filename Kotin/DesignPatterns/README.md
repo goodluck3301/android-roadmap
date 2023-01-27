@@ -93,3 +93,5 @@ class MainActivity : AppCompatActivity() {
     }
 }
 ```
+
+https://www.kodeco.com/10391019-livedata-tutorial-for-android-deep-dive
