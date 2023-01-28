@@ -82,3 +82,7 @@ Android, Java and Kotlin RoadMap
 ### Sites
 [Amit Shekhar-Blog (Java/Kotlin/Android)](https://github.com/amitshekhariitbhu/android-interview-questions#core-android)</br>
 [Java](https://www.javapedia.net/module/Java)
+
+
+### Video
+[Собеседование на должность Junior Android Developer. Вопросы и ответы](https://www.youtube.com/watch?v=odnGQh08b8Q)
