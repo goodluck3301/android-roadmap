@@ -93,3 +93,7 @@ class MyFragment: Fragment() {
 }
 ```
 In this example, the ```when``` expression in the observer is used to determine the current state of the button and update the UI accordingly. This makes your code more readable and maintainable.
+
+- Usedfull sites
+  - [Sealed Classes](https://medium.com/jesus-medina/sealed-classes-and-sealed-interfaces-advanced-kotlin-a8f6de0c9eaf)
+  - [Sealed Classes VS. Enum Classes VS. Sealed Interfaces - When to Use Which?](https://www.youtube.com/watch?v=kLJRZpRhX1o)
