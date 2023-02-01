@@ -14,9 +14,7 @@ Android, Java and Kotlin RoadMap
   - [Kotlin Data Class Tutorial with Example](https://www.youtube.com/watch?v=L0VulZZPGbI)
 - [x] Data Class vs Class
   - [Kotlin DATA CLASS. Object Oriented Programming in Kotlin for Android #8.10 (Video - EN)](https://www.youtube.com/watch?v=Z6xj7hta7Ac)
-- [x] Sealed Classes, Enum Classes, Sealed Interfaces
-  - [Sealed Classes](https://medium.com/jesus-medina/sealed-classes-and-sealed-interfaces-advanced-kotlin-a8f6de0c9eaf)
-  - [Sealed Classes VS. Enum Classes VS. Sealed Interfaces - When to Use Which?](https://www.youtube.com/watch?v=kLJRZpRhX1o)
+- [x] [Sealed Classes, Enum Classes, Sealed Interfaces](https://github.com/goodluck3301/android-interview/blob/main/Android/SealedClass/README.md#enum-class--sealed-class)
 - [x] Inline Function
   - In Kotlin, the higher-order functions or lambda expressions, all stored as an object so memory allocation, for both function objects and classes, and virtual calls might introduce runtime overhead. Sometimes we can eliminate the memory overhead by inlining the lambda expression. In order to reduce the memory overhead of such higher-order functions or lambda expressions, we can use the inline keyword which ultimately requests the compiler to not allocate memory and simply copy the inlined code of that function at the calling place.
    ```kt
