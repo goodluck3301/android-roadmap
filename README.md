@@ -70,6 +70,7 @@ Android, Java and Kotlin RoadMap
 - [x] Activities
 - [x] Services
 - [x] Broadcast
+- [x] Recevers 
 - [x] Content Providers 
 - [x] Kotlin Flow API
 - [x] Jetpack Compose
