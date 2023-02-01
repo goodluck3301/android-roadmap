@@ -97,3 +97,4 @@ In this example, the ```when``` expression in the observer is used to determine 
 - Usedfull sites
   - [Sealed Classes](https://medium.com/jesus-medina/sealed-classes-and-sealed-interfaces-advanced-kotlin-a8f6de0c9eaf)
   - [Sealed Classes VS. Enum Classes VS. Sealed Interfaces - When to Use Which?](https://www.youtube.com/watch?v=kLJRZpRhX1o)
+  - [Kotlin: Урок 17. Sealed Классы](https://www.youtube.com/watch?v=kJpsqBRUQeY)
