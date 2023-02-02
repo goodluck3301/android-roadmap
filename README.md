@@ -81,8 +81,8 @@ Android, Java and Kotlin RoadMap
 
 ### Sites
 [Amit Shekhar-Blog (Java/Kotlin/Android)](https://github.com/amitshekhariitbhu/android-interview-questions#core-android)</br>
-[Java](https://www.javapedia.net/module/Java)
-[Seagence Blogs](https://github.com/goodluck3301/android-interview/tree/main/Java/Memory#things-you-need-to-know-about-memory-management-in-java)
+[Java](https://www.javapedia.net/module/Java)</br>
+[Seagence Blogs](https://github.com/goodluck3301/android-interview/tree/main/Java/Memory#things-you-need-to-know-about-memory-management-in-java)</br>
 
 
 ### Video
