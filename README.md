@@ -5,8 +5,8 @@ Android, Java and Kotlin RoadMap
 - [x] [Java vs Kotlin](https://www.youtube.com/watch?v=RPvEAcjVvBQ)
 - [x] [Java Multithreading](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading)
 - [x] [Thread Communication](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading)
-- [x] [Memory Managmend (Stack/Heap/Garbage Colector)](https://github.com/goodluck3301/android-interview/tree/main/Java/Memory#things-you-need-to-know-about-memory-management-in-java)
-- [x] [Garbage Collection (Lang AM)](https://www.youtube.com/watch?v=-ehHDzjCd-s)
+- [x] [Memory Managmend (Stack/Heap/Garbage Collector)](https://github.com/goodluck3301/android-interview/tree/main/Java/Memory#things-you-need-to-know-about-memory-management-in-java)
+- [x] [Garbage Collector (Lang AM)](https://www.youtube.com/watch?v=-ehHDzjCd-s)
 - [x] Extension Methods
 
 ## [Kotlin](https://github.com/goodluck3301/android-interview/tree/main/Kotin)
