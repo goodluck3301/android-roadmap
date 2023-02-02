@@ -10,7 +10,7 @@ Android, Java and Kotlin RoadMap
 - [x] Extension Methods
 
 ## [Kotlin](https://github.com/goodluck3301/android-interview/tree/main/Kotin)
-- [x] [Data Class](https://www.youtube.com/watch?v=L0VulZZPGbI)
+- [x] [Data Class (Like Java POJO Class)](https://github.com/goodluck3301/android-interview/tree/main/Kotin/Diference/DataClass)
 - [x] [Data Class vs Class](https://www.youtube.com/watch?v=Z6xj7hta7Ac)
 - [x] [Sealed Classes, Enum Classes, Sealed Interfaces](https://github.com/goodluck3301/android-interview/blob/main/Android/SealedClass/README.md#enum-class--sealed-class)
 - [x] Inline Function
