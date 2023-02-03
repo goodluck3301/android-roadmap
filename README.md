@@ -8,9 +8,10 @@ Android, Java and Kotlin RoadMap
 - [x] [Memory Managmend (Stack/Heap/Garbage Collector)](https://github.com/goodluck3301/android-interview/tree/main/Java/Memory#things-you-need-to-know-about-memory-management-in-java)
 - [x] [Memory management in JVM(Java, Kotlin, Scala, Groovy, Clojure)](https://deepu.tech/memory-management-in-jvm/)
 - [x] [Garbage Collector (Lang AM)](https://www.youtube.com/watch?v=-ehHDzjCd-s)
-- [x] [Extension Methods](https://www.geeksforgeeks.org/java-extension-methods/)
+- [x] [Extension Methods in Java](https://www.geeksforgeeks.org/java-extension-methods/)
 
 ## [Kotlin](https://github.com/goodluck3301/android-interview/tree/main/Kotin)
+- [x] [Extension Methods in Kotlin](https://www.javatpoint.com/kotlin-extension-function)
 - [x] [Data Class (Like Java POJO Class)](https://github.com/goodluck3301/android-interview/tree/main/Kotin/Diference/DataClass)
 - [x] [Data Class vs Class](https://www.youtube.com/watch?v=Z6xj7hta7Ac)
 - [x] [Sealed Classes, Enum Classes, Sealed Interfaces](https://github.com/goodluck3301/android-interview/blob/main/Android/SealedClass/README.md#enum-class--sealed-class)
