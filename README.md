@@ -57,7 +57,7 @@ Android, Java and Kotlin RoadMap
 
 - [Android Use LiveData To Show Toast Message From ViewModel](https://code.luasoftware.com/tutorials/android/android-use-livedata-to-show-toast-message-from-viewmodel)
 - [Setup Dagger 2 For Android Kotlin](https://code.luasoftware.com/tutorials/android/setup-dagger2-for-android-kotlin)
-[Guide to learning Android Dev with Kotlin and Architecture Components (ViewModel, LiveData and Room)](https://code.luasoftware.com/tutorials/android/learning-android-dev-with-kotlin-and-architecture-components)
+- [Guide to learning Android Dev with Kotlin and Architecture Components (ViewModel, LiveData and Room)](https://code.luasoftware.com/tutorials/android/learning-android-dev-with-kotlin-and-architecture-components)
 - [Android Run Coroutines in ViewModel](https://code.luasoftware.com/tutorials/android/android-run-coroutines-in-viewmodel)
 [Jetpack Compose: Pass ViewModel to Composable Function](https://code.luasoftware.com/tutorials/android/jetpack-compose-pass-viewmodel-to-composable-function)
 - [Android ViewModel Save State (Kotlin)](https://code.luasoftware.com/tutorials/android/android-viewmodel-save-state)
