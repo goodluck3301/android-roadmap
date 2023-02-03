@@ -27,7 +27,7 @@ fun <T> MutableList<T>.swap(index1: Int, index2: Int) {
 }
 ```
 
-You need to declare the generic type parameter before the function name to make it available in the receiver type expression. For more information about generics, see [generic functions](generic functions.).
+You need to declare the generic type parameter before the function name to make it available in the receiver type expression. For more information about generics, see [generic functions](https://kotlinlang.org/docs/generics.html).
 
 
 
