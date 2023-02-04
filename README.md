@@ -70,3 +70,4 @@ Android, Java and Kotlin RoadMap
 
 ### Video
 [Собеседование на должность Junior Android Developer. Вопросы и ответы](https://www.youtube.com/watch?v=odnGQh08b8Q)
+[Собеседование Junior Android разработчика](https://www.youtube.com/watch?v=iZTJ0WRX4yU)
