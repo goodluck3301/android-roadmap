@@ -69,5 +69,5 @@ Android, Java and Kotlin RoadMap
 - [Tutorials/Android](https://code.luasoftware.com/tutorials/android/android-viewmodel)
 
 ### Video
-[Собеседование на должность Junior Android Developer. Вопросы и ответы](https://www.youtube.com/watch?v=odnGQh08b8Q)
+[Собеседование на должность Junior Android Developer. Вопросы и ответы](https://www.youtube.com/watch?v=odnGQh08b8Q)</br>
 [Собеседование Junior Android разработчика](https://www.youtube.com/watch?v=iZTJ0WRX4yU)
