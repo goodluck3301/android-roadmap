@@ -22,7 +22,6 @@ Android, Java and Kotlin RoadMap
 - [x] Mastering Flow API in Kotlin
 - [x] Kotlin Coroutines
 - [x] [Data Structure(ex. map, hashMap, list...)](https://github.com/goodluck3301/data-structures-and-algorithms)
-- [x] Garbage Collection
 - [x] Extension Methods
 
 
