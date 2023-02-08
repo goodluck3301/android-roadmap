@@ -148,4 +148,4 @@ public class ExampleService extends Service {
 
 #### References:
 
-- [Services overview}(https://developer.android.com/guide/components/services)
+- [Services overview](https://developer.android.com/guide/components/services)
