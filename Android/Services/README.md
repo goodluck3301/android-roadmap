@@ -1,16 +1,16 @@
 # Android Services
-- ### What are Android Services?
-- ### Why we should use services?
-- ### Types of Services
-  - ### Foreground
-  - ### Background
-  - ### Bound
-- ### Lifecycle of Service
-- ### Started Services
-- ### Bound Services
-- ### What is the differences between Started Service and Bound Service?
-- ### Intent Service
-- ### Creating a Service
+- ##### What are Android Services?
+- ##### Why we should use services?
+- ##### Types of Services
+  - ##### Foreground
+  - ##### Background
+  - ##### Bound
+- ##### Lifecycle of Service
+- ##### Started Services
+- ##### Bound Services
+- ##### What is the differences between Started Service and Bound Service?
+- ##### Intent Service
+- ##### Creating a Service
 
 
 - ## What are Android Services?
