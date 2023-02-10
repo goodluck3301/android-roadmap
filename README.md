@@ -41,7 +41,7 @@ Android, Java and Kotlin RoadMap
 - [x] [Services](https://github.com/goodluck3301/android-interview/tree/main/Android/Services)
 - [x] [Broadcast](https://developer.android.com/guide/components/broadcasts)
 - [x] Recevers 
-- [x] Content Providers 
+- [x] [Content Providers](https://www.youtube.com/watch?v=zeDzbzLmpLs) 
 - [x] Kotlin Flow API
 - [x] Jetpack Compose
 - [x] [Profile Memory Usage](https://www.kodeco.com/books/android-debugging-by-tutorials/v1.0/chapters/10-profile-memory-usage)
