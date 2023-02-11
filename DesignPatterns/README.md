@@ -1,3 +1,3 @@
 
-https://battlecity.udfsoft.com/
-https://vpn.udfsoft.com/
+- https://battlecity.udfsoft.com/
+- https://vpn.udfsoft.com/
