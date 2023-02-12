@@ -47,6 +47,7 @@ Android, Java and Kotlin RoadMap
 - [x] [Profile Memory Usage](https://www.kodeco.com/books/android-debugging-by-tutorials/v1.0/chapters/10-profile-memory-usage)
 - [x] [Data Structures and Algorithms](https://github.com/goodluck3301/data-structures-and-algorithms)
 - [x] [MVVM](https://github.com/goodluck3301/android-interview/tree/main/Android/MVVM)
+- [x] [SOLID](https://www.youtube.com/watch?v=A6wEkG4B38E)
 
 
 ### Sites
