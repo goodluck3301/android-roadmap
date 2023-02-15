@@ -1,5 +1,5 @@
-# Android Interview
-Android, Java and Kotlin RoadMap
+# Android Roadmap
+Android, Java and Kotlin
 
 ## [Java](https://github.com/goodluck3301/android-interview/tree/main/Java)
 - [x] [Java vs Kotlin](https://www.youtube.com/watch?v=RPvEAcjVvBQ)
