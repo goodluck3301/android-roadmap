@@ -74,3 +74,8 @@ You can reuse the module and working on it without merge conflicts, but each mod
             
 ### Final thoughts
 Modularization is great way to implement your projects, but it could be taught to set, mostly if you don’t have a precise idea in mind. Also there is no winning strategy, a lot depends on the project itself, but if you have evaluated everything, you will be able to make the most of it, especially in managing new features and potential refactors.            
+
+
+## Tutorials
+
+- [Уроки по архитектуре (clean architecture в Android)](https://youtube.com/playlist?list=PLeF3l86ZMVkLQbdRL6Ra4cr_cmPROj94y)
