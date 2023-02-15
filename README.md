@@ -50,6 +50,7 @@ Android, Java and Kotlin
 - [x] [SOLID](https://www.youtube.com/watch?v=A6wEkG4B38E)
 - [x] [Modularization with Clean Architecture](https://github.com/goodluck3301/android-roadmap/tree/main/Android/CleanArchitecture#android-app-modularization-with-clean-architecture)
 - [x] [CI/CD concepts](https://docs.gitlab.com/ee/ci/introduction/index.html#continuous-integration)
+- [x] [Собеседование Android system design](https://www.youtube.com/watch?v=FmgzRI47NiA)
 
 ### Sites
 [Amit Shekhar-Blog (Java/Kotlin/Android)](https://github.com/amitshekhariitbhu/android-interview-questions#core-android)</br>
