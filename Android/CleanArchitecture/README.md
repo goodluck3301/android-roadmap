@@ -7,7 +7,7 @@ It often happens that we have to deal with projects that grow out of proportion,
 The idea behind modularization is to create independent and specific modules, in order to facilitate both its development and its maintenance. In order to implement it, we will follow [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html) as the reference architecture. 
 It separates the elements into layers, the idea is to encapsulate the business logic but keeps it separate from the other layers.
 One of the most important thing is about code dependencies, the inner layers doesn’t know nothing of the methods on the outer layers, so the code dependencies can only move from the outer layers inward.
-</br<Taking a look at the layers we have:
+</br>Taking a look at the layers we have:
 
 - Presentation layer, it implements the user interface, the user interacts directly with this layer, it contains controllers and view models;
 - Domain layer, it contains the business logic, also it is responsible for processing the data from the data layer to the presentation layer and viceversa;
