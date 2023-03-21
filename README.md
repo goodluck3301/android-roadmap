@@ -73,4 +73,5 @@ Android, Java and Kotlin
 
 ### Video
 [Собеседование на должность Junior Android Developer. Вопросы и ответы](https://www.youtube.com/watch?v=odnGQh08b8Q)</br>
-[Собеседование Junior Android разработчика](https://www.youtube.com/watch?v=iZTJ0WRX4yU)
+[Собеседование Junior Android разработчика](https://www.youtube.com/watch?v=iZTJ0WRX4yU)</br>
+[StateFlow vs. Flow vs. SharedFlow vs. LiveData... When to Use What?! - Android Studio Tutorial](https://www.youtube.com/watch?v=6Jc6-INantQ&t=963s)
