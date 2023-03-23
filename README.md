@@ -43,6 +43,7 @@ Android, Java and Kotlin
 - [x] Recevers 
 - [x] [Content Providers](https://www.youtube.com/watch?v=zeDzbzLmpLs) 
 - [x] Kotlin Flow API
+- [x] JUnit
 - [x] [Gradle](https://www.kodeco.com/249-gradle-tutorial-for-android-getting-started)
 - [x] [Jetpack Compose](https://developer.android.com/courses/jetpack-compose/course)
 - [x] [Profile Memory Usage](https://www.kodeco.com/books/android-debugging-by-tutorials/v1.0/chapters/10-profile-memory-usage)
