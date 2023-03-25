@@ -42,7 +42,7 @@ Android, Java and Kotlin
 - [x] [Broadcast](https://developer.android.com/guide/components/broadcasts)
 - [x] Recevers 
 - [x] [Content Providers](https://www.youtube.com/watch?v=zeDzbzLmpLs) 
-- [x] Kotlin Flow API
+- [x] [Flow](https://logidots.com/insights/live-data-flow-shared-flow-state-flow-2/) 
 - [x] [Testing(ex. JUnit, Mockito..)](https://github.com/goodluck3301/android-roadmap/tree/main/Android/Other/Testing)
 - [x] [Gradle](https://www.kodeco.com/249-gradle-tutorial-for-android-getting-started)
 - [x] [Jetpack Compose](https://developer.android.com/courses/jetpack-compose/course)
