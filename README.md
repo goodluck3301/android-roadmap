@@ -45,6 +45,7 @@ Android, Java and Kotlin
 - [x] [Flow](https://logidots.com/insights/live-data-flow-shared-flow-state-flow-2/) 
 - [x] [Testing(ex. JUnit, Mockito..)](https://github.com/goodluck3301/android-roadmap/tree/main/Android/Other/Testing)
 - [x] [Gradle](https://www.kodeco.com/249-gradle-tutorial-for-android-getting-started)
+- [ ] [Dependency Injection](https://medium.com/swlh/dependency-injection-with-koin-6b6364dc8dba)
 - [x] [Jetpack Compose](https://developer.android.com/courses/jetpack-compose/course)
 - [x] [Profile Memory Usage](https://www.kodeco.com/books/android-debugging-by-tutorials/v1.0/chapters/10-profile-memory-usage)
 - [x] [Data Structures and Algorithms](https://github.com/goodluck3301/data-structures-and-algorithms)
