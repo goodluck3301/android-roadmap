@@ -2,6 +2,7 @@
 Android, Java and Kotlin
 
 ## [Java](https://github.com/goodluck3301/android-interview/tree/main/Java)
+- [x] [JVM Architecture]([https://www.youtube.com/watch?v=RPvEAcjVvBQ](https://medium.com/java-for-beginners/understanding-java-virtual-machine-jvm-architecture-e68d1c611026))
 - [x] [Java vs Kotlin](https://www.youtube.com/watch?v=RPvEAcjVvBQ)
 - [x] [Java Multithreading](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading)
 - [x] [Thread Communication](https://github.com/goodluck3301/android-interview/tree/main/Java/MultiThreading)
